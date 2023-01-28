@@ -105,8 +105,6 @@ exports.getAllPostCategories = catchAsyncError(async (req, res, next) => {
 
 //update Post
 exports.updatePost = catchAsyncError(async (req, res, next) => {
-  console.log(req.body);
-
   const post = await postModel.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
   });

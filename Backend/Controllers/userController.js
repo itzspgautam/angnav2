@@ -7,7 +7,6 @@ const setCookie = require("../Utils/setCookie");
 //login
 exports.login = catchAsyncError(async (req, res, next) => {
   let token = req.headers.authorization.split(" ")[1];
-  console.log(token);
   try {
     //Verifying Bearer Toekn
     const userTokenVerify = await admin.auth().verifyIdToken(token);

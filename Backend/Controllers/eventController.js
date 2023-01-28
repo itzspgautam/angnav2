@@ -60,8 +60,6 @@ exports.loadSingleEvent = catchAsyncError(async (req, res, next) => {
 
 //updateEvent
 exports.updateEventPost = catchAsyncError(async (req, res, next) => {
-  console.log(req.body);
-
   const event = await EventModel.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
   });

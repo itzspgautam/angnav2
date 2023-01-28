@@ -30,7 +30,6 @@ exports.verifyAndSave = catchAsyncError(async (req, res, next) => {
     const chekIsPaid = await PaymentModel.find({
       order_id: req.body.payment.razorpay_order_id,
     });
-    console.log(chekIsPaid.length);
     if (chekIsPaid.length > 0) {
       return next(new ErrorHandler("Invalid request", 400));
     }
@@ -50,7 +49,6 @@ exports.verifyAndSave = catchAsyncError(async (req, res, next) => {
       rawData: { ...payment },
     });
 
-    console.log(savePayInfo);
     res.status(200).json({
       status: payment.status,
       payment: { ...payment, payer: req.body.payment.payer },
