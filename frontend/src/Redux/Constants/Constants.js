@@ -1,0 +1,112 @@
+export const OTP_SENT_REQUEST = "OTP_SENT_REQUEST";
+export const OTP_SENT_SUCCESS = "OTP_SENT_SUCCESS";
+export const OTP_SENT_FAIL = "OTP_SENT_FAIL";
+
+export const OTP_VERIFY_REQUEST = "OTP_VERIFY_REQUEST";
+export const OTP_VERIFY_SUCCESS = "OTP_VERIFY_SUCCESS";
+export const OTP_VERIFY_FAIL = "OTP_VERIFY_FAIL";
+
+//login user
+export const LOGIN_REQUEST = "LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+
+//Social Login
+
+export const SOCIAL_LOGIN_REQUEST = "SOCIAL_LOGIN_REQUEST";
+export const SOCIAL_LOGIN_SUCCESS = "SOCIAL_LOGIN_SUCCESS";
+export const SOCIAL_LOGIN_FAIL = "SOCIAL_LOGIN_FAIL";
+
+//logout user
+export const LOGOUT_USER_SUCCESS = "LOGOUT_USER_SUCCESS";
+export const LOGOUT_USER_FAIL = "LOGOUT_USER_FAIL";
+
+//Load user
+export const LOAD_USER_REQUEST = "LOAD_USER_REQUEST";
+export const LOAD_USER_SUCCESS = "LOAD_USER_SUCCESS";
+export const LOAD_USER_FAIL = "LOAD_USER_FAIL";
+
+//Uodate user
+export const UPDATE_USER_REQUEST = "UPDATE_USER_REQUEST";
+export const UPDATE_USER_SUCCESS = "UPDATE_USER_SUCCESS";
+export const UPDATE_USER_FAIL = "UPDATE_USER_FAIL";
+
+//Upload Avatar
+export const UPDATE_AVATAR_REQUEST = "UPDATE_AVATAR_REQUEST";
+export const UPDATE_AVATAR_SUCCESS = "UPDATE_AVATAR_SUCCESS";
+export const UPDATE_AVATAR_FAIL = "UPDATE_AVATAR_FAIL";
+
+//get All contest
+export const ALL_CONTEST_REQUEST = "ALL_CONTEST_REQUEST";
+export const ALL_CONTEST_SUCCESS = "ALL_CONTEST_SUCCESS";
+export const ALL_CONTEST_FAIL = "ALL_CONTEST_FAIL";
+
+//get conest details
+export const SELECT_CONTEST_REQUEST = "SELECT_CONTEST_REQUEST";
+export const SELECT_CONTEST_SUCCESS = "SELECT_CONTEST_SUCCESS";
+export const SELECT_CONTEST_FAIL = "SELECT_CONTEST_FAIL";
+
+//get participation detials
+export const GET_PART_REQUEST = "GET_PART_REQUEST";
+export const GET_PART_SUCCESS = "GET_PART_SUCCESS";
+export const GET_PART_FAIL = "GET_PART_FAIL";
+
+//get participation detials
+export const NEW_PART_REQUEST = "NEW_PART_REQUEST";
+export const NEW_PART_SUCCESS = "NEW_PART_SUCCESS";
+export const NEW_PART_FAIL = "NEW_PART_FAIL";
+
+//get My participation detials
+export const MY_PART_REQUEST = "MY_PART_REQUEST";
+export const MY_PART_SUCCESS = "MY_PART_SUCCESS";
+export const MY_PART_FAIL = "MY_PART_FAIL";
+
+//event Load
+export const LOAD_EVENT_REQUEST = "LOAD_EVENT_REQUEST";
+export const LOAD_EVENT_SUCCESS = "LOAD_EVENT_SUCCESS";
+export const LOAD_EVENT_FAIL = "LOAD_EVENT_FAIL";
+
+//single event Load
+export const SINGLE_EVENT_REQUEST = "SINGLE_EVENT_REQUEST";
+export const SINGLE_EVENT_SUCCESS = "SINGLE_EVENT_SUCCESS";
+export const SINGLE_EVENT_FAIL = "SINGLE_EVENT_FAIL";
+
+//event category Load
+export const LOAD_CATEGORY_REQUEST = "LOAD_CATEGORY_REQUEST";
+export const LOAD_CATEGORY_SUCCESS = "LOAD_CATEGORY_SUCCESS";
+export const LOAD_CATEGORY_FAIL = "LOAD_CATEGORY_FAIL";
+
+//post category Load
+export const LOAD_POST_CATEGORY_REQUEST = "LOAD_POST_CATEGORY_REQUEST";
+export const LOAD_POST_CATEGORY_SUCCESS = "LOAD_POST_CATEGORY_SUCCESS";
+export const LOAD_POST_CATEGORY_FAIL = "LOAD_POST_CATEGORY_FAIL";
+
+//load all posts
+export const LOAD_POST_REQUEST = "LOAD_POST_REQUEST";
+export const LOAD_POST_SUCCESS = "LOAD_POST_SUCCESS";
+export const LOAD_POST_FAIL = "LOAD_POST_FAIL";
+
+//single post Load
+export const SINGLE_POST_REQUEST = "SINGLE_POST_REQUEST";
+export const SINGLE_POST_SUCCESS = "SINGLE_POST_SUCCESS";
+export const SINGLE_POST_FAIL = "SINGLE_POST_FAIL";
+
+//slider load
+//Hero
+export const LOAD_HERO_REQUEST = "LOAD_HERO_REQUEST";
+export const LOAD_HERO_SUCCESS = "LOAD_HERO_SUCCESS";
+export const LOAD_HERO_FAIL = "LOAD_HERO_FAIL";
+
+//aoy
+export const LOAD_AOY_REQUEST = "LOAD_AOY_REQUEST";
+export const LOAD_AOY_SUCCESS = "LOAD_AOY_SUCCESS";
+export const LOAD_AOY_FAIL = "LOAD_AOY_FAIL";
+
+//paymet
+export const PAYMENT_REQUEST = "PAYMENT_REQUEST";
+export const PAYMENT_VERIFY = "PAYMENT_VERIFY";
+export const PAYMENT_SUCCESS = "PAYMENT_SUCCESS";
+export const PAYMENT_FAIL = "PAYMENT_FAIL";
+
+export const CLEAR_ERROR = "CLEAR_ERROR";
+export const CLEAR_SUCCESS = "CLEAR_SUCCESS";
