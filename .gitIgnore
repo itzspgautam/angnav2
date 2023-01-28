@@ -5,13 +5,10 @@
 /frontend/.pnp
 /frontend.pnp.js
 /Backend/Config/config.env
-/Backend/Config/firebaseService.json
 
 # testing
 /frontend/coverage
 
-/frontend/src/Config/CloudinaryConfig.js
-/frontend/src/Config/FirebaseConfig.js
 
 # production
 
